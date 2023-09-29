@@ -1,0 +1,28 @@
+.gender-selection {
+  display: flex;
+  gap: 20px;
+}
+
+form button {
+  cursor: pointer;
+  border: none;
+  padding: 0.7rem;
+  background-color: #36ce00;
+  color: white;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.title {
+  align-self: center;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.pre-text {
+  align-self: center;
+}
+
+.error-text {
+  color: red;
+}

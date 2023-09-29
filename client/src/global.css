@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding: 1rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.field input[type='text'] {
+  flex: 1;
+  padding: 5px 5px;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}

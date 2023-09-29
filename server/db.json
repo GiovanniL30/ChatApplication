@@ -1,0 +1,29 @@
+{
+  "conversations": [
+    {
+      "id": "ascacsasc",
+      "participants": [
+        "asd",
+        "asa"
+      ],
+      "messages": [
+        {
+          "senderID": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "userName": "Giovanni Leo",
+      "password": "hello",
+      "gender": "Male",
+      "image": {
+        "male": "https://www.pngkey.com/png/detail/988-9886269_blank-person-facebook-no-profile.png",
+        "female": "https://cdn.vectorstock.com/i/preview-1x/08/64/person-gray-photo-placeholder-woman-vector-23190864.jpg"
+      },
+      "id": "5d14d7e6-9e00-4142-a816-62325dc0caa5"
+    }
+  ]
+}

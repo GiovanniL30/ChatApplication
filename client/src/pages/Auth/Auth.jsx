@@ -9,9 +9,7 @@ export default function Auth() {
 
   return (
     <>
-      <div className='container'>
-        <Outlet />
-      </div>
+      <Outlet />
     </>
   )
 }

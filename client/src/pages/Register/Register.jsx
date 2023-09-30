@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import './register.css'
 import { createUser } from '../../../api'
-import { useMutation } from '@tanstack/react-query'
+import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { NavLink, Navigate } from 'react-router-dom'
 
 export default function Register() {
+  const query = useQueryClient()
+
   const [formData, setFormData] = useState({
     userName: '',
     password: '',
@@ -28,6 +30,7 @@ export default function Register() {
   const createUserMutation = useMutation({
     mutationFn: () => createUser(formData),
     onSuccess: () => {
+      query.invalidateQueries('users')
       setHaveError(false)
       setCreatedAccount(true)
       setFormData({
